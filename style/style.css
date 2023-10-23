@@ -58,8 +58,11 @@ html, body {
     font-size: 18px;
     font-weight: 700;
     color: white;
+    transition: all 300ms;
 }
-
+.nav__list-link:hover {
+    color: rgb(61, 61, 61);
+}
 .header__content {
     margin-top: auto;
     background: url(../images/bg.jpg) no-repeat center/ cover;
@@ -213,7 +216,6 @@ html, body {
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
-    z-index: 100;
     padding-bottom: 20px;
 }
 .skill__letter-box-text {
